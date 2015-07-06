@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{32FCDA90-5D95-48F0-B73B-E3CFF8E3ADC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LibraryManagementSystem.DataAccess</RootNamespace>
+    <AssemblyName>LibraryManagementSystem.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBookCommand.cs" />
+    <Compile Include="AddCatagoryCommand.cs" />
+    <Compile Include="ChangePasswordCommand.cs" />
+    <Compile Include="DeleteBookCommand.cs" />
+    <Compile Include="IssueCommand.cs" />
+    <Compile Include="IssueInfoCommand.cs" />
+    <Compile Include="ReturnBookCommand.cs" />
+    <Compile Include="RemoveBookCommand.cs" />
+    <Compile Include="LogInCommand.cs" />
+    <Compile Include="RegisterCommand.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchBookCommand.cs" />
+    <Compile Include="SelectCategoryCommand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibrabyManagementSystem.Entity\LibrabyManagementSystem.Entity.csproj">
+      <Project>{4102558d-217e-4c21-ac71-cef09f4433be}</Project>
+      <Name>LibrabyManagementSystem.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibrabyManagementSystem.Framework\LibrabyManagementSystem.Framework.csproj">
+      <Project>{a52b881f-e24a-4295-b1af-54ff6c1232e9}</Project>
+      <Name>LibrabyManagementSystem.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

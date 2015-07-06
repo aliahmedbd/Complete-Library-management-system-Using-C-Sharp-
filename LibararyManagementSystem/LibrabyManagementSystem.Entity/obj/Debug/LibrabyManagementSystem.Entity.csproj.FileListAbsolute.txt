@@ -1,0 +1,10 @@
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Entity\bin\Debug\LibrabyManagementSystem.Entity.dll
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Entity\bin\Debug\LibrabyManagementSystem.Entity.pdb
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Entity\obj\Debug\LibrabyManagementSystem.Entity.csprojResolveAssemblyReference.cache
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Entity\obj\Debug\LibrabyManagementSystem.Entity.dll
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Entity\obj\Debug\LibrabyManagementSystem.Entity.pdb
+C:\Users\robot\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Entity\bin\Debug\LibrabyManagementSystem.Entity.dll
+C:\Users\robot\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Entity\bin\Debug\LibrabyManagementSystem.Entity.pdb
+C:\Users\robot\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Entity\obj\Debug\LibrabyManagementSystem.Entity.csprojResolveAssemblyReference.cache
+C:\Users\robot\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Entity\obj\Debug\LibrabyManagementSystem.Entity.dll
+C:\Users\robot\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Entity\obj\Debug\LibrabyManagementSystem.Entity.pdb

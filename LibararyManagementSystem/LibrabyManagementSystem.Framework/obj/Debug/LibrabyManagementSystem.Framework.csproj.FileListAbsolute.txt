@@ -1,0 +1,15 @@
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Framework\bin\Debug\LibrabyManagementSystem.Framework.dll
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Framework\bin\Debug\LibrabyManagementSystem.Framework.pdb
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Framework\obj\Debug\LibrabyManagementSystem.Framework.csprojResolveAssemblyReference.cache
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Framework\obj\Debug\LibrabyManagementSystem.Framework.dll
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Framework\obj\Debug\LibrabyManagementSystem.Framework.pdb
+C:\Users\robot\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Framework\bin\Debug\LibrabyManagementSystem.Framework.dll
+C:\Users\robot\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Framework\bin\Debug\LibrabyManagementSystem.Framework.pdb
+C:\Users\robot\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Framework\obj\Debug\LibrabyManagementSystem.Framework.csprojResolveAssemblyReference.cache
+C:\Users\robot\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Framework\obj\Debug\LibrabyManagementSystem.Framework.dll
+C:\Users\robot\Desktop\LibararyManagementSystem\LibrabyManagementSystem.Framework\obj\Debug\LibrabyManagementSystem.Framework.pdb
+F:\LibararyManagementSystem\LibrabyManagementSystem.Framework\bin\Debug\LibrabyManagementSystem.Framework.dll
+F:\LibararyManagementSystem\LibrabyManagementSystem.Framework\bin\Debug\LibrabyManagementSystem.Framework.pdb
+F:\LibararyManagementSystem\LibrabyManagementSystem.Framework\obj\Debug\LibrabyManagementSystem.Framework.csprojResolveAssemblyReference.cache
+F:\LibararyManagementSystem\LibrabyManagementSystem.Framework\obj\Debug\LibrabyManagementSystem.Framework.dll
+F:\LibararyManagementSystem\LibrabyManagementSystem.Framework\obj\Debug\LibrabyManagementSystem.Framework.pdb

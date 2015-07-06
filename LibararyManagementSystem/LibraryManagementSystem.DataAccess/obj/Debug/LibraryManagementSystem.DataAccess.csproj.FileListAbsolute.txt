@@ -1,0 +1,27 @@
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibraryManagementSystem.DataAccess.dll
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibraryManagementSystem.DataAccess.pdb
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibrabyManagementSystem.Entity.dll
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibrabyManagementSystem.Framework.dll
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibrabyManagementSystem.Entity.pdb
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibrabyManagementSystem.Framework.pdb
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\obj\Debug\LibraryManagementSystem.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\obj\Debug\LibraryManagementSystem.DataAccess.dll
+C:\Users\Ali Ahmed\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\obj\Debug\LibraryManagementSystem.DataAccess.pdb
+C:\Users\robot\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\obj\Debug\LibraryManagementSystem.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\robot\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\obj\Debug\LibraryManagementSystem.DataAccess.dll
+C:\Users\robot\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibraryManagementSystem.DataAccess.dll
+C:\Users\robot\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibraryManagementSystem.DataAccess.pdb
+C:\Users\robot\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibrabyManagementSystem.Entity.dll
+C:\Users\robot\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibrabyManagementSystem.Framework.dll
+C:\Users\robot\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibrabyManagementSystem.Entity.pdb
+C:\Users\robot\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibrabyManagementSystem.Framework.pdb
+C:\Users\robot\Desktop\LibararyManagementSystem\LibraryManagementSystem.DataAccess\obj\Debug\LibraryManagementSystem.DataAccess.pdb
+F:\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibraryManagementSystem.DataAccess.dll
+F:\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibraryManagementSystem.DataAccess.pdb
+F:\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibrabyManagementSystem.Entity.dll
+F:\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibrabyManagementSystem.Framework.dll
+F:\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibrabyManagementSystem.Entity.pdb
+F:\LibararyManagementSystem\LibraryManagementSystem.DataAccess\bin\Debug\LibrabyManagementSystem.Framework.pdb
+F:\LibararyManagementSystem\LibraryManagementSystem.DataAccess\obj\Debug\LibraryManagementSystem.DataAccess.csprojResolveAssemblyReference.cache
+F:\LibararyManagementSystem\LibraryManagementSystem.DataAccess\obj\Debug\LibraryManagementSystem.DataAccess.dll
+F:\LibararyManagementSystem\LibraryManagementSystem.DataAccess\obj\Debug\LibraryManagementSystem.DataAccess.pdb

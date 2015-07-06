@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11C41111-8D0D-4E16-B12C-1F0E9A47C06D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LibararyManagementSystem</RootNamespace>
+    <AssemblyName>LibararyManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Action.Designer.cs">
+      <DependentUpon>Action.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add.Designer.cs">
+      <DependentUpon>add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addCatagoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addCatagoryForm.Designer.cs">
+      <DependentUpon>addCatagoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="changePassswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changePassswordForm.Designer.cs">
+      <DependentUpon>changePassswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IssueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IssueForm.Designer.cs">
+      <DependentUpon>IssueForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="issueInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="issueInfoForm.Designer.cs">
+      <DependentUpon>issueInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInForm.Designer.cs">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="remove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="remove.Designer.cs">
+      <DependentUpon>remove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="returnBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="returnBookForm.Designer.cs">
+      <DependentUpon>returnBookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchBookForm.Designer.cs">
+      <DependentUpon>searchBookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchStudent.Designer.cs">
+      <DependentUpon>searchStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchTeacher.Designer.cs">
+      <DependentUpon>searchTeacher.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Action.resx">
+      <DependentUpon>Action.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add.resx">
+      <DependentUpon>add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addCatagoryForm.resx">
+      <DependentUpon>addCatagoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changePassswordForm.resx">
+      <DependentUpon>changePassswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssueForm.resx">
+      <DependentUpon>IssueForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="issueInfoForm.resx">
+      <DependentUpon>issueInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInForm.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="remove.resx">
+      <DependentUpon>remove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="returnBookForm.resx">
+      <DependentUpon>returnBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchBookForm.resx">
+      <DependentUpon>searchBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchStudent.resx">
+      <DependentUpon>searchStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchTeacher.resx">
+      <DependentUpon>searchTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LIbrary.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LIbrary_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>LIbrary.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\remove book black.JPG" />
+    <None Include="Resources\return book black.jpg" />
+    <None Include="Resources\Add book black.jpg" />
+    <None Include="Resources\issu black .jpg" />
+    <None Include="Resources\issue from black.jpg" />
+    <None Include="Resources\register black.jpg" />
+    <None Include="Resources\login black.jpg" />
+    <None Include="Resources\change passward black.jpg" />
+    <None Include="Resources\catagory black.jpg" />
+    <None Include="Resources\action black.jpg" />
+    <None Include="Resources\Search black.jpg" />
+    <None Include="Resources\remove.jpg" />
+    <None Include="Resources\log in.jpg" />
+    <None Include="Resources\add.jpg" />
+    <None Include="Resources\return1.jpg" />
+    <None Include="Resources\Catagory.jpg" />
+    <None Include="Resources\library 3.jpg" />
+    <None Include="Resources\library2.png" />
+    <None Include="Resources\Libraries.jpg" />
+    <None Include="Resources\search new.png" />
+    <None Include="Resources\remobe button.png" />
+    <None Include="Resources\Registration button.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\Add book.png" />
+    <None Include="Resources\libraries-prism2.jpg" />
+    <None Include="Resources\61014_37.jpg" />
+    <None Include="Resources\background-plain1.jpg" />
+    <None Include="Resources\background-plain.jpg" />
+    <None Include="Resources\12.jpg" />
+    <None Include="Resources\register-button.jpg" />
+    <None Include="Resources\background_register.png" />
+    <None Include="Resources\cancel-button-md.png" />
+    <None Include="Resources\thin-gray-save-button-hi.png" />
+    <None Include="Resources\Abstraction-Video-Wallpaper.jpg" />
+    <None Include="Resources\books.jpg" />
+    <None Include="Resources\add-button-blue-hi.png" />
+    <None Include="Resources\images1.jpg" />
+    <None Include="Resources\RedReturnButton.png" />
+    <None Include="Resources\zsfsd.png" />
+    <None Include="Resources\remove-all-button-png-hi.png" />
+    <None Include="Resources\Antique_wallpapers_245.jpg" />
+    <None Include="Resources\new_issues_button.png" />
+    <None Include="Resources\search-button.png" />
+    <None Include="Resources\net-detective-650x400.jpg" />
+    <None Include="Resources\img0066.jpg" />
+    <None Include="Resources\27e04254n-exit-sign.jpg" />
+    <None Include="Resources\index2.jpg" />
+    <None Include="Resources\index1.jpg" />
+    <None Include="Resources\user-login-interface-vector_34-10067.jpg" />
+    <None Include="Resources\ldashpartner2-300x300.jpg" />
+    <None Include="Resources\library_icon1.jpg" />
+    <None Include="Resources\library_icon.jpg" />
+    <None Include="Resources\index.jpg" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\seo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibrabyManagementSystem.Entity\LibrabyManagementSystem.Entity.csproj">
+      <Project>{4102558d-217e-4c21-ac71-cef09f4433be}</Project>
+      <Name>LibrabyManagementSystem.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibrabyManagementSystem.Framework\LibrabyManagementSystem.Framework.csproj">
+      <Project>{a52b881f-e24a-4295-b1af-54ff6c1232e9}</Project>
+      <Name>LibrabyManagementSystem.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibraryManagementSystem.DataAccess\LibraryManagementSystem.DataAccess.csproj">
+      <Project>{32fcda90-5d95-48f0-b73b-e3cff8e3adc5}</Project>
+      <Name>LibraryManagementSystem.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
